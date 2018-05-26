@@ -1,0 +1,1 @@
+A python script that uses the natural language library TextBlob and tweepy to figure out the sentiment analysis of a given topic on Twitter.
