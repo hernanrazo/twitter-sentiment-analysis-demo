@@ -16,7 +16,7 @@ api = tweepy.API(auth)
 public_tweets = api.search('twenty one pilots')
 
 #Iterate through public tweets, print them, and 
-#return the polarity and subjectiity values
+#return the polarity and subjectivity values
 for tweet in public_tweets:
 	print(tweet.text)
 	analysis = TextBlob(tweet.text)
